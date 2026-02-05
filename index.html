@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SRID - Expert Data, AI & Cloud Solutions. Accelerate your digital transformation with advanced analytics and cloud engineering.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.srid.ca/">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="SRID | Data, AI & Cloud Solutions">
+    <meta property="og:description" content="We deliver cutting-edge technology solutions in cloud and data to empower modern enterprises.">
+    <meta property="og:url" content="https://www.srid.ca/">
+    <meta property="og:type" content="website">
+
+    <title>SRID | Data, AI & Cloud Solutions</title>
+
+    <!-- Corporate Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#0056b3',
+                        dark: '#0a0a0a'
+                    },
+                    fontFamily: {
+                        sans: ['Public Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { font-family: 'Public Sans', sans-serif; scroll-behavior: smooth; }
+        .hero-gradient { background: linear-gradient(135deg, #0a0a0a 0%, #002d5a 100%); }
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-black tracking-tighter text-brand">SRID</div>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="index.html" class="font-semibold text-brand">Home</a>
+                <a href="page/index.html" class="hover:text-brand transition">Services</a>
+                <a href="#solutions" class="hover:text-brand transition">Solutions</a>
+                <a href="#contact" class="bg-brand text-white px-6 py-2 rounded shadow-lg hover:bg-blue-700 transition">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-white space-y-8">
+                <h1 class="text-6xl md:text-8xl font-extrabold leading-tight">
+                    Drive Growth with <span class="text-blue-400">Data.</span>
+                </h1>
+                <p class="text-xl text-gray-300 max-w-lg leading-relaxed">
+                    SRID empowers businesses through advanced Artificial Intelligence, Cloud Infrastructure, and Data Engineering solutions tailored for the digital age.
+                </p>
+                <div class="flex gap-4 pt-4">
+                    <a href="#solutions" class="bg-white text-dark px-10 py-4 rounded font-bold hover:bg-gray-200 transition">Explore Solutions</a>
+                    <a href="page/index.html" class="border border-white/30 text-white px-10 py-4 rounded font-bold hover:bg-white/10 transition">Learn More</a>
+                </div>
+            </div>
+            <div class="hidden md:block relative">
+                <div class="absolute -inset-10 bg-blue-500/10 blur-3xl rounded-full"></div>
+                <!-- Image of Cloud Computing Visualization -->
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000" alt="Technology and Data Visualization" class="relative rounded-lg shadow-2xl border border-white/5">
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="solutions" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-16">Enterprise Scale Solutions</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition group">
+                    <i class="fas fa-brain text-4xl text-brand mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Applied AI</h3>
+                    <p class="text-gray-600">Custom machine learning models designed to solve complex business challenges.</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition group">
+                    <i class="fas fa-cloud text-4xl text-brand mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Cloud Strategy</h3>
+                    <p class="text-gray-600">Secure, scalable, and optimized cloud architectures (AWS, Azure, GCP).</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition group">
+                    <i class="fas fa-chart-line text-4xl text-brand mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Data Analytics</h3>
+                    <p class="text-gray-600">Turn raw data into actionable insights with our business intelligence stack.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center border-t border-white/10 pt-8">
+            <div class="text-xl font-bold">SRID.CA</div>
+            <p class="text-gray-500 text-sm">© 2024 SRID Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
