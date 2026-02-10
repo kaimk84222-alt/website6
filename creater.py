@@ -36,7 +36,7 @@ class ContinuousGenerator:
             self.template_content = "<html><head><title>{{TITLE}}</title></head><body>{{DESCRIPTION}}<br>Date: {{DATE}}<br>{{INTERNAL_LINKS}}</body></html>"
 
     def load_keywords(self):
-        ar_files = ["keywords_ar.txt"]
+        ar_files = ["jf.txt"]
         en_files = ["keywords_en.txt"]
         
         for file in ar_files:
