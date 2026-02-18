@@ -110,4 +110,9 @@
     <loc>https://www.srid.ca/map-extra21.xml</loc>
     <lastmod>2026-02-18</lastmod>
   </sitemap>
+
+  <sitemap>
+    <loc>https://www.srid.ca/map-extra22.xml</loc>
+    <lastmod>2026-02-18</lastmod>
+  </sitemap>
 </sitemapindex>
