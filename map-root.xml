@@ -240,4 +240,9 @@
     <loc>https://www.srid.ca/map-extra47.xml</loc>
     <lastmod>2026-02-28</lastmod>
   </sitemap>
+
+  <sitemap>
+    <loc>https://www.srid.ca/map-extra48.xml</loc>
+    <lastmod>2026-02-28</lastmod>
+  </sitemap>
 </sitemapindex>
